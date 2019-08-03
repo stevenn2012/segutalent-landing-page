@@ -30,3 +30,49 @@
     color: #A8A8A8;
     font-size: 25px;
 }
+
+.logo-footer {
+    width: 30%;
+}
+
+#social_media,
+#clients {
+    display: none;
+}
+
+.join_button {
+    background: #ff5c5c !important;
+}
+
+.main_nav ul li.active a,
+.main_nav ul li:hover a {
+    color: #ff5c5c !important;
+}
+
+.main_nav ul li::after {
+    background: #ff5c5c !important;
+}
+
+.section_title h1 span {
+    color: #ff5c5c !important;
+}
+
+.cta {
+    background: #ff5c5c !important;
+}
+
+.benefit_icon {
+    background: #ffbd4a !important;
+}
+
+.testimonials_overlay {
+    background: rgba(168, 168, 168, 0.75);
+}
+
+.news_icon {
+    background: #ff5c5c !important;
+}
+
+.news_icon::before {
+    background: #ff5c5c !important;
+}
