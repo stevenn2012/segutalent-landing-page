@@ -1,0 +1,32 @@
+.home_slider_container {
+    background-color: white;
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.home_slider_container .middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.home_slider_container .middle .inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.home_slider_container .middle .inner img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.home_slider_container .middle .inner .mb-4 {
+    text-align: center;
+    color: #A8A8A8;
+    font-size: 25px;
+}
