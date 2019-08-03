@@ -36,7 +36,8 @@
 }
 
 #social_media,
-#clients {
+#clients,
+#social_media_menu {
     display: none;
 }
 
