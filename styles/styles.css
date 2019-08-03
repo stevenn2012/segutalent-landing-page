@@ -76,3 +76,23 @@
 .news_icon::before {
     background: #ff5c5c !important;
 }
+
+.footer {
+    border-top: solid 3px #ff5c5c;
+}
+
+.footer_contact_text a {
+    text-decoration: none;
+    position: relative;
+    color: white;
+}
+
+.footer_contact_text a:after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    border-width: 0 0 1px;
+    border-style: solid;
+}
