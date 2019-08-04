@@ -91,18 +91,21 @@
                     <div class="col-lg-8">
                         <div class="contact_form_container">
                             <div class="contact_title">Comunicate con nosotros</div>
-                            <form action="#" id="contact_form" class="contact_form">
+                            <form action="https://formspree.io/2012stevenn@gmail.com" method="POST" id="contact_form" class="contact_form">
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <div class="contact_input_container contact_input_container_1"><input type="text" class="contact_input" placeholder="Tu nombre" required="required"></div>
+                                        <div class="contact_input_container contact_input_container_1">
+                                            <input name="name" type="text" class="contact_input" placeholder="Tu nombre" required="required"></div>
                                     </div>
                                     <div class="col-lg-6">
-                                        <div class="contact_input_container contact_input_container_2"><input type="email" class="contact_input" placeholder="Tu correo electrónico" required="required"></div>
+                                        <div class="contact_input_container contact_input_container_2">
+                                            <input name="_replyto" type="email" class="contact_input" placeholder="Tu correo electrónico" required="required">
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="contact_input_container contact_input_container_3"><input type="text" class="contact_input" placeholder="Asunto" required="required"></div>
-                                <div class="contact_input_container contact_input_container_4"><textarea class="contact_input contact_textarea" placeholder="Mensaje" required="required"></textarea></div>
-                                <button class="contact_button background_organge button">Enviar Mensaje</button>
+                                <div name="subject" class="contact_input_container contact_input_container_3"><input type="text" class="contact_input" placeholder="Asunto" required="required"></div>
+                                <div name="message" class="contact_input_container contact_input_container_4"><textarea class="contact_input contact_textarea" placeholder="Mensaje" required="required"></textarea></div>
+                                <button type="submit" class="contact_button background_organge button">Enviar Mensaje</button>
                             </form>
                         </div>
                     </div>
