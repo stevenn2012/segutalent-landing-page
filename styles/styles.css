@@ -37,44 +37,50 @@
 
 #social_media,
 #clients,
-#social_media_menu {
+#social_media_menu,
+#team_about,
+#faq_about,
+#precios {
     display: none;
 }
 
-.join_button {
-    background: #ff5c5c !important;
+#proposite {
+    background: #383838;
 }
 
 .main_nav ul li.active a,
-.main_nav ul li:hover a {
+.main_nav ul li:hover a,
+.section_title h1 span,
+.intro_title span {
     color: #ff5c5c !important;
 }
 
-.main_nav ul li::after {
-    background: #ff5c5c !important;
-}
-
-.section_title h1 span {
-    color: #ff5c5c !important;
-}
-
-.cta {
-    background: #ff5c5c !important;
-}
-
-.benefit_icon {
-    background: #ffbd4a !important;
-}
-
-.testimonials_overlay {
+.testimonials_overlay,
+.background_gray,
+.background_gray_hover:hover {
     background: rgba(168, 168, 168, 0.75);
 }
 
-.news_icon {
-    background: #ff5c5c !important;
+.news_icon::before,
+.breadcrumbs ul,
+.news_icon,
+.benefit_icon,
+.cta,
+.main_nav ul li::after,
+.join_button,
+.background_yellow,
+.box_1 {
+    background: #FFBD4A !important;
 }
 
-.news_icon::before {
+.news_icon::before,
+.breadcrumbs ul,
+.news_icon,
+.cta,
+.main_nav ul li::after,
+.join_button,
+.background_organge,
+.box_1 {
     background: #ff5c5c !important;
 }
 
@@ -96,4 +102,17 @@
     bottom: 0px;
     border-width: 0 0 1px;
     border-style: solid;
+}
+
+.accordion_panel>div {
+    border-left: solid 3px #ff5c5c;
+}
+
+.accordion.active {
+    background: #ff5c5c;
+    border: solid 2px #ff5c5c;
+}
+
+.offer_box {
+    background: #ff5c5c;
 }
