@@ -95,7 +95,8 @@
                                 <div class="row">
                                     <div class="col-lg-6">
                                         <div class="contact_input_container contact_input_container_1">
-                                            <input name="name" type="text" class="contact_input" placeholder="Tu nombre" required="required"></div>
+                                            <input name="name" type="text" class="contact_input" placeholder="Tu nombre" required="required">
+                                        </div>
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="contact_input_container contact_input_container_2">
@@ -103,8 +104,13 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div name="_subject" class="contact_input_container contact_input_container_3"><input type="text" class="contact_input" placeholder="Asunto" required="required"></div>
-                                <div name="message" class="contact_input_container contact_input_container_4"><textarea class="contact_input contact_textarea" placeholder="Mensaje" required="required"></textarea></div>
+                                <div class="contact_input_container contact_input_container_3">
+                                    <input name="_subject" type="text" class="contact_input" placeholder="Asunto" required="required">
+                                </div>
+                                <div class="contact_input_container contact_input_container_4">
+                                    <textarea name="message" class="contact_input contact_textarea" placeholder="Mensaje" required="required"></textarea>
+                                </div>
+                                <input type="hidden" name="_next" value="https://segurtalent.com" />
                                 <button type="submit" class="contact_button background_organge button">Enviar Mensaje</button>
                             </form>
                         </div>
