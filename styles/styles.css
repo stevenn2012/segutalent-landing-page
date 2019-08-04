@@ -40,7 +40,8 @@
 #social_media_menu,
 #team_about,
 #faq_about,
-#precios {
+#precios,
+#map {
     display: none;
 }
 
@@ -81,7 +82,8 @@
 .main_nav ul li::after,
 .join_button,
 .background_organge,
-.box_1 {
+.box_1,
+.contact_input_container::after {
     background: #ff5c5c !important;
 }
 
